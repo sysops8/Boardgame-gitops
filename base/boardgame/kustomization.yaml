@@ -10,8 +10,9 @@ resources:
 images:
   - name: harbor.local.lab/library/myapp
     newName: harbor.local.lab/library/myapp
-    newTag: 226
+    newTag: "latest"
 
 commonLabels:
   app: boardgame
   managed-by: argocd
+
