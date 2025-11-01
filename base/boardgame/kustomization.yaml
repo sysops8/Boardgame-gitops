@@ -8,4 +8,4 @@ resources:
 
 images:
 - name: harbor.local.lab/library/myapp
-  newTag: "latest"  # ← Должно быть в кавычках!
+  newTag: 225
