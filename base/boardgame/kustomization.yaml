@@ -8,4 +8,4 @@ resources:
 
 images:
 - name: harbor.local.lab/library/myapp
-  newTag: 216
+  newTag: 217
