@@ -8,4 +8,4 @@ resources:
 
 images:
 - name: harbor.local.lab/library/myapp
-  newTag: "latest"  # ← это будет обновляться Jenkins
+  newTag: 214
