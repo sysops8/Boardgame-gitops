@@ -7,5 +7,5 @@ resources:
 - ingress.yaml
 
 images:
-- name: harbor.local.lab/library/boardgame
-  newTag: latest
+- name: harbor.local.lab/library/myapp
+  newTag: "latest"  # ← это будет обновляться Jenkins
