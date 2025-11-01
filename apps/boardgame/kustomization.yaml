@@ -5,7 +5,3 @@ namespace: production
 
 resources:
 - ../../base/boardgame
-
-replicas:
-- name: boardgame
-  count: 2
