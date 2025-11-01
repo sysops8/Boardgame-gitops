@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: boardgame-deployment
+  namespace: production
 spec:
   selector:
     matchLabels:
@@ -10,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: boardgame
+        app: boardgame  # ← Должно совпадать с selector.matchLabels
     spec:
       containers:
         - name: boardgame
