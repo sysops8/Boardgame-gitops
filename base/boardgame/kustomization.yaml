@@ -10,7 +10,7 @@ resources:
 images:
   - name: harbor.local.lab/library/myapp
     newName: harbor.local.lab/library/myapp
-    newTag: "271"
+    newTag: "272"
 
 commonLabels:
   app: boardgame
