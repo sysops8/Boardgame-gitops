@@ -6,7 +6,7 @@ metadata:
     app: boardgame
     version: v1
 spec:
-  replicas: 4
+  replicas: 2
   selector:
     matchLabels:
       app: boardgame
@@ -47,6 +47,7 @@ spec:
             limits:
               memory: "512Mi"
               cpu: "500m"
+
 
 
 
