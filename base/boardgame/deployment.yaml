@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: harbor.local.lab/library/myapp:latest
+          image: harbor.local.lab/library/boardgame:latest
           imagePullPolicy: Always
           ports:
             - name: http
@@ -47,6 +47,7 @@ spec:
             limits:
               memory: "512Mi"
               cpu: "500m"
+
 
 
 
