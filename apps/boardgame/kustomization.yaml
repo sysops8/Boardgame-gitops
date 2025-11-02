@@ -7,5 +7,6 @@ resources:
 - ../../base/boardgame
 
 images:
-- name: harbor.local.lab/library/myapp
+- name: harbor.local.lab/library/boardgame
   newTag: "280"
+
