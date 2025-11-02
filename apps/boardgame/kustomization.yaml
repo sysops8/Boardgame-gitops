@@ -8,6 +8,6 @@ resources:
 
 images:
 - name: harbor.local.lab/library/boardgame
-  newTag: "306"
+  newTag: "307"
 
 
