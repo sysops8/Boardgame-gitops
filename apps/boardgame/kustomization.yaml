@@ -8,5 +8,5 @@ resources:
 
 images:
 - name: harbor.local.lab/library/myapp
-  newTag: "211"  # ← это должно обновляться
+  newTag: "278"
 
