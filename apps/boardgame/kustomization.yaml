@@ -8,5 +8,5 @@ resources:
 
 images:
 - name: harbor.local.lab/library/boardgame
-  newTag: "31"
+  newTag: "32"
 
